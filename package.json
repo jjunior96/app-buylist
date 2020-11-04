@@ -1,5 +1,6 @@
 {
-  "name": "mobile",
+  "name": "app-list",
+  "author": "Junior Alves <jjalves96@gmail.com>",
   "version": "0.0.1",
   "private": true,
   "scripts": {
