@@ -1,17 +1,17 @@
+import 'react-native-gesture-handler';
 import React from 'react';
 import {View, Text, StyleSheet, StatusBar} from 'react-native';
+import {NavigationContainer} from '@react-navigation/native';
 
+import Routes from './routes';
 import Item from './components/Item';
 
 export default function App() {
   return (
-    <>
+    <NavigationContainer>
       <StatusBar barStyle="light-content" />
-      <View style={styles.container}>
-        <Text style={styles.title}>Hello GoStack</Text>
-        <Item />
-      </View>
-    </>
+      <Routes />
+    </NavigationContainer>
   );
 }
 
