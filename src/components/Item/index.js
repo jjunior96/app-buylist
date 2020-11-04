@@ -5,6 +5,7 @@ import {
   Text,
   TouchableOpacity,
   FlatList,
+  StatusBar,
 } from 'react-native';
 
 import * as S from './styled';
@@ -24,6 +25,7 @@ const Item = () => {
 
   return (
     <SafeAreaView>
+      <StatusBar barStyle="light-content" />
       <Text>ToDo List</Text>
       <TextInput
         autoCapitalize="none"
